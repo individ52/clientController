@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css.css">
+    <title>ClientController</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="table small">
+            <table class="add-order">
+                <tr>
+                    <th class="part num">Price</th>
+                    <th class="part text">Type of order</th>
+                </tr>
+                <tr>
+                    <th><input id="price" type="text"></th>
+                    <th class="type-orders">
+                        <select class="type-order" name="" id="">
+                            <option value="">+</option>
+                            <option value="Пряники">Пряники</option>
+                            <option value="Конфеты">конфеты</option>
+                            <option value="Асорти">асорти</option>
+                            <option value="Чай">чай</option>
+                            <option value="Цикорий">цикорий</option>
+                            <option value="Вещи">вещи</option>
+                            <option value="delete">delete</option>
+                        </select>
+                    </th>
+                </tr>
+            </table>
+            <button class="add-btn">ADD</button>
+        </div>
+        <div class="table">
+            <table class="all-orders">
+                <tr class="tr-table">
+                    <th class="part num">hours</th>
+                    <th class="part time">time</th>   
+                    <th class="part num">price</th>   
+                    <th class="part text">type</th>   
+                </tr>
+                <tr>
+                    <th>1</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
